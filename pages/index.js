@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-import { Hero } from '@components/Hero'
-import { About } from '@components/About'
-import { Portfolio } from '@components/Portfolio'
+import Header from '@components/Header.js'
+import Footer from '@components/Footer.js'
+import { Hero } from '@components/Hero.js'
+import { About } from '@components/About.js'
+import { Portfolio } from '@components/Portfolio.js'
 
 export default function Home() {
   return (
